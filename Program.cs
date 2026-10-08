@@ -73,43 +73,43 @@
 //         continue;
 //     }
 // }
-// int secret = 42;
-// int ans;
-// for (int i = 1; i <= 5; i++)
-// {
-//     Console.Write("Введите число: ");
-//     ans = int.Parse(Console.ReadLine());
-//     if (ans == secret)
-//     {
-//         Console.WriteLine($"Победа! Попыток: {i}");
-//         break;
-//     }
-//     else
-//     {
-//         if (ans < secret && i != 5)
-//         {
-//             Console.WriteLine("Больше");
-//             continue;
-//         }
-//         else if (ans > secret && i != 5)
-//         {
-//             Console.WriteLine("Меньше");
-//             continue;
-//         }
-//         else
-//         {
-//             Console.WriteLine("Вы проиграли, число было 42");
-//         }
-//     }
-// }
-using System.Diagnostics.CodeAnalysis;
-
-Console.Write("Введите целое число: ");
-int a = int.Parse(Console.ReadLine());
-int s = 0;
-while (a > 0)
+int secret = 42;
+int ans;
+for (int i = 1; i <= 5; i++)
 {
-    s += a % 10;
-    a /= 10;
+    Console.Write("Введите число: ");
+    ans = int.Parse(Console.ReadLine());
+    if (ans == secret)
+    {
+        Console.WriteLine($"Победа! Попыток: {i}");
+        break;
+    }
+    else
+    {
+        if (ans < secret && i != 5)
+        {
+            Console.WriteLine("Больше");
+            continue;
+        }
+        else if (ans > secret && i != 5)
+        {
+            Console.WriteLine("Меньше");
+            continue;
+        }
+        else
+        {
+            Console.WriteLine("Вы проиграли, число было 42");
+        }
+    }
 }
-Console.WriteLine(s);
+// using System.Diagnostics.CodeAnalysis;
+
+// Console.Write("Введите целое число: ");
+// int a = int.Parse(Console.ReadLine());
+// int s = 0;
+// while (a > 0)
+// {
+//     s += a % 10;
+//     a /= 10;
+// }
+// Console.WriteLine(s);
