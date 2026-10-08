@@ -15,5 +15,5 @@
 
 ## Скриншоты
 
-![Рузультат](/img/result_Lab06_barakov.PNG);
-![Git](/img/git_Lab06_barakov.PNG);
+![Рузультат](/img/result_Lab06_barakov.PNG)
+![Git](/img/git_Lab06_barakov.PNG)
