@@ -24,7 +24,7 @@ for (int i = 1; i <= 100; i++)
     {
         c3 += i;
     }
-    else if (i / 7 == 0)
+    else if (i % 7 == 0)
     {
         c7++;
     }
